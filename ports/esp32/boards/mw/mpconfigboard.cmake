@@ -1,5 +1,3 @@
-// copy from generic-OTA
-// merge with generic-spiRAM
 
 
 set(SDKCONFIG_DEFAULTS
