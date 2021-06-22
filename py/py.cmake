@@ -45,7 +45,6 @@ set(MICROPY_SOURCE_PY
     ${MICROPY_PY_DIR}/modmath.c
     ${MICROPY_PY_DIR}/modmicropython.c
     ${MICROPY_PY_DIR}/modstruct.c
-    ${MICROPY_PY_DIR}/modsubsystem.c
     ${MICROPY_PY_DIR}/modsys.c
     ${MICROPY_PY_DIR}/modthread.c
     ${MICROPY_PY_DIR}/moduerrno.c
