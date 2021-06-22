@@ -5,7 +5,8 @@
 set(SDKCONFIG_DEFAULTS
     boards/sdkconfig.base
     boards/sdkconfig.ble
-    boards/GENERIC_OTA/sdkconfig.board
+    boards/sdkconfig.spiram             # from spiram
+    boards/GENERIC_OTA/sdkconfig.board  # from OTA
 )
 
 if(NOT MICROPY_FROZEN_MANIFEST)
